@@ -1,4 +1,4 @@
-#$(call inherit-product, build/target/product/generic.mk)
+$(call inherit-product, vendor/motorola/sholes-open/device.mk)
 
 # Manually set the policy and PRODUCT_PACKAGES so we can tweak them 
 # depending on whether or not we build with Google. There is no way
